@@ -1,0 +1,10 @@
+zuul:
+  ignoredServices: '*'
+  routes:
+    customer-service:
+      path: /customers/**
+  host:
+    connect-timeout-millis: 20000
+    socket-timeout-millis: 20000
+server:
+  port: 8080
