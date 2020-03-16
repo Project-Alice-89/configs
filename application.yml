@@ -1,0 +1,7 @@
+#This is common configuration shared for all application
+eureka:
+  instance:
+    prefer-ip-address: false
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/ #where our registry server is located
