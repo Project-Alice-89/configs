@@ -1,7 +1,7 @@
 zuul:
   ignoredServices: '*'
   routes:
-    customer-service:
+    customer-services:
       path: /customers/**
   host:
     connect-timeout-millis: 20000
